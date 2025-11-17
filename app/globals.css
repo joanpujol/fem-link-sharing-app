@@ -1,11 +1,61 @@
 @import 'tailwindcss';
 
 :root {
+  --brand-white: #ffffff;
+  --brand-black: #000000;
+
+  --brand-grey-900: #292929;
+  --brand-grey-700: #515151;
+  --brand-grey-500: #939393;
+  --brand-grey-200: #dcdcdc;
+  --brand-grey-100: #f1f1f1;
+
+  --brand-blue-800: #1429ff;
+  --brand-blue-500: #347dff;
+
+  --brand-purple-900: #302253;
+  --brand-purple-600: #633cff;
+  --brand-purple-300: #a590ff;
+
+  --brand-red-500: #d94343;
+  --brand-red-400: #ff6161;
+
+  --brand-pink-900: #97363a;
+  --brand-pink-400: #f4a28c;
+
+  --brand-orange-600: #ff6900;
+  --brand-orange-500: #db4917;
+
   --background: #ffffff;
   --foreground: #171717;
 }
 
 @theme inline {
+  --color-brand-white: var(--brand-white);
+  --color-brand-black: var(--brand-black);
+
+  --color-brand-grey-900: var(--brand-grey-900);
+  --color-brand-grey-700: var(--brand-grey-700);
+  --color-brand-grey-500: var(--brand-grey-500);
+  --color-brand-grey-200: var(--brand-grey-200);
+  --color-brand-grey-100: var(--brand-grey-100);
+
+  --color-brand-blue-800: var(--brand-blue-800);
+  --color-brand-blue-500: var(--brand-blue-500);
+
+  --color-brand-purple-900: var(--brand-purple-900);
+  --color-brand-purple-600: var(--brand-purple-600);
+  --color-brand-purple-300: var(--brand-purple-300);
+
+  --color-brand-red-500: var(--brand-red-500);
+  --color-brand-red-400: var(--brand-red-400);
+
+  --color-brand-pink-900: var(--brand-pink-900);
+  --color-brand-pink-400: var(--brand-pink-400);
+
+  --color-brand-orange-600: var(--brand-orange-600);
+  --color-brand-orange-500: var(--brand-orange-500);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
