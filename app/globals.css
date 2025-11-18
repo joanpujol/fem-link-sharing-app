@@ -15,7 +15,11 @@
 
   --brand-purple-900: #302253;
   --brand-purple-600: #633cff;
+  --brand-purple-600-rgb: 99, 60, 255;
   --brand-purple-300: #a590ff;
+
+  --brand-purple-200: #beadff; /* Purple Hover */
+  --brand-purple-100: #efebff; /* Light Purple */
 
   --brand-red-500: #d94343;
   --brand-red-400: #ff6161;
@@ -45,7 +49,11 @@
 
   --color-brand-purple-900: var(--brand-purple-900);
   --color-brand-purple-600: var(--brand-purple-600);
+  --color-brand-purple-600-rgb: var(--brand-purple-600-rgb);
   --color-brand-purple-300: var(--brand-purple-300);
+
+  --color-brand-purple-200: var(--brand-purple-200); /* Purple Hover */
+  --color-brand-purple-100: var(--brand-purple-100); /* Light Purple */
 
   --color-brand-red-500: var(--brand-red-500);
   --color-brand-red-400: var(--brand-red-400);
