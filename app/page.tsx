@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Text } from '@/components';
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-brand-orange-600 dark:text-zinc-50">
             To get started, edit the page.tsx file.
           </h1>
+          <Text as="h1" preset="preset1">
+            This is an H1 heading
+          </Text>
+          <Text as="span" preset="preset3regular">
+            This is a span
+          </Text>
+          <Text preset="preset2">This defaults to a &lt;p&gt; tag</Text>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for a starting point or more instructions? Head over to{' '}
             <a

@@ -62,11 +62,36 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/fonts/static/InstrumentSans-VariableFont_wdth,wght.ttf')
+    format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/fonts/static/InstrumentSans-Italic-VariableFont_wdth,wght.ttf')
+    format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+:root {
+  --font-instrument-sans: 'Instrument Sans', sans-serif;
+}
+
+.font-instrument-sans {
+  font-family: var(--font-instrument-sans);
 }
 
 body {
