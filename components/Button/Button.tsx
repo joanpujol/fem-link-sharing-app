@@ -30,7 +30,7 @@ export function Button({
   const primary = clsx(
     'bg-[var(--color-brand-purple-600)] text-[var(--brand-white)]',
     !disabled &&
-      'hover:bg-[var(--color-brand-purple-200)] hover:drop-shadow-[0_0_32px_rgba(var(--color-brand-purple-600-rgb),0.25)]',
+      'hover:bg-[var(--color-brand-purple-200)] hover:shadow-[0_0_32px_rgba(var(--color-brand-purple-600-rgb),0.25)]',
     !disabled && 'active:bg-[var(--color-brand-purple-200)]',
     disabled && 'pointer-events-none cursor-not-allowed'
   );
